@@ -13,7 +13,7 @@ describe('Проверка сайта на оформление заказа', f
         cy.wait(3000);
         cy.get('.cart-item').should('be.visible');
         cy.wait(2000);
-        cy.get('.total-amount').should('be.visible').contains('19 000');
+        cy.get('.total-amount').should('be.visible').contains('21 000');
         cy.get('.cart-controls > .button').click();
                    })
 })
